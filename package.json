@@ -1,0 +1,38 @@
+{
+  "name": "picmo-facebook-emoji-renderer",
+  "version": "1.0.0",
+  "description": "facebook emoji renderer for PicMo",
+  "main": "./dist/picmo-facebook-emoji-renderer.umd.js",
+  "module": "./dist/picmo-facebook-emoji-renderer.es.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carl-jin/picmo-facebook-emoji-renderer.git"
+  },
+  "homepage": "https://github.com/carl-jin/picmo-facebook-emoji-renderer#readme",
+  "bugs": {
+    "url": "https://github.com/carl-jin/picmo-facebook-emoji-renderer/issues"
+  },
+  "scripts": {
+    "serve": "vite serve --port 3002",
+    "build": "vite build && tsc -p ./tsconfig.dist.json -emitDeclarationOnly && tsc-alias -p ./tsconfig.dist.json"
+  },
+  "keywords": [
+    "pickmo",
+    "facebookEmoji",
+    "popup",
+    "emoji",
+    "emoji picker",
+    "javascript"
+  ],
+  "author": "carl-jin",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc-alias": "^1.6.7",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "picmo": "^5.1.0"
+  }
+}
