@@ -1,6 +1,6 @@
 {
   "name": "picmo-facebook-emoji-renderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "facebook emoji renderer for PicMo",
   "main": "./dist/picmo-facebook-emoji-renderer.umd.js",
   "module": "./dist/picmo-facebook-emoji-renderer.es.js",
