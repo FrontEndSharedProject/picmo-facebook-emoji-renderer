@@ -18,7 +18,7 @@
     "build": "vite build && tsc -p ./tsconfig.dist.json -emitDeclarationOnly && tsc-alias -p ./tsconfig.dist.json"
   },
   "keywords": [
-    "pickmo",
+    "picmo",
     "facebookEmoji",
     "popup",
     "emoji",
@@ -32,7 +32,7 @@
     "typescript": "^4.6.4",
     "vite": "^2.9.9"
   },
-  "dependencies": {
+  "peerDependencies": {
     "picmo": "^5.1.0"
   }
 }
